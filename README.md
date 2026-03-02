@@ -1,4 +1,18 @@
 # skills evaluated
+
+## memroy
+memory os
+
+## cron-jobs
+schedule
+
+## skill-writer
+[https://skills.sh/pytorch/pytorch/skill-writer]
+This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.
+
+## coding-agent
+Use bash (with optional background mode) for all coding agent work. Simple and effective.
+
 ## run
 run OR async run a functional api throuth api gateway piper with credential token
 
