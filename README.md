@@ -2,6 +2,9 @@
 ## ✅find-skills
 【https://skills.sh/vercel-labs/skills/find-skills】 This skill helps you discover and install skills from the open agent skills ecosystem.
 
+## ✅superpowers
+[https://github.com/obra/superpowers] a complete software development workflow for your coding agents, built on top of a set of composable "skills" and some initial instructions that make sure your agent uses them.
+
 ## memroy
 memory os
 
