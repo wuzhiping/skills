@@ -1,6 +1,6 @@
 ---
 name: fess
-description: Enhanced web and package repository search using [FEG Enterprise Search Server] with SearXNG instance
+description: 当用户说"搜索"、"查找"、"最新新闻"、进行网络搜索时，使用; Enhanced web and package repository search using [FEG Enterprise Search Server] with SearXNG instance
 ---
 
 # FESS Search
