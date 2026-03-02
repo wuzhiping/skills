@@ -13,6 +13,9 @@ This Skill helps you create well-structured Agent Skills for Claude Code that fo
 ## coding-agent
 Use bash (with optional background mode) for all coding agent work. Simple and effective.
 
+## wiki-sop
+JA SOP with media-wiki
+
 ## run
 run OR async run a functional api throuth api gateway piper with credential token
 
