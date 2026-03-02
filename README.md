@@ -1,4 +1,6 @@
 # skills evaluated
+## find-skills
+【https://skills.sh/vercel-labs/skills/find-skills】 This skill helps you discover and install skills from the open agent skills ecosystem.
 
 ## memroy
 memory os
@@ -6,7 +8,7 @@ memory os
 ## cron-jobs
 schedule
 
-## skill-writer
+## ✓skill-writer
 [https://skills.sh/pytorch/pytorch/skill-writer]
 This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.
 
