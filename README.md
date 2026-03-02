@@ -26,7 +26,7 @@ JA SOP with media-wiki
 ## run
 run OR async run a functional api throuth api gateway piper with credential token
 
-## fess ✅
+## ✅fess
 Enhanced web and package repository search using [FEG Enterprise Search Server] with SearXNG instance
 
 ## planka
