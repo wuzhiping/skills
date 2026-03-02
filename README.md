@@ -32,3 +32,22 @@ This is useful when you want to selectively send emails to real recipients after
 
 ## infographic
 [https://infographic.antv.vision](https://github.com/antvis/Infographic/tree/main/skills)
+
+<hr/>
+| 阶段 | Emoji | 说明 |
+|------|-------|------|
+| **Todo / 待办** | 📝 ☐ | 待处理、未开始 |
+| **Plan / 计划** | 📋 🗓️ | 已规划、排期中 |
+| **Developing / 开发中** | 🚧 ⚙️ 🔨 | 进行中、构建中 |
+| **QA / 测试** | 🔍 🧪 ✅ | 审查中、测试中 |
+| **Complete / 完成** | ✓ 🎉 🏁 | 已完成、交付 |
+
+---
+
+**推荐组合（风格统一）：**
+
+📝 **待办** → 📋 **计划** → 🚧 **开发** → 🔍 **测试** → ✅ **完成**
+
+或更简洁的：
+
+☐ **Todo** → 🗓️ **Plan** → ⚙️ **Dev** → 🧪 **QA** → ✓ **Done**
