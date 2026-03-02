@@ -29,3 +29,6 @@ follows the classic Kanban methodology
 ## mailpit
 Mailpit's SMTP relay (also called "message release") allows you to forward captured emails to a real SMTP server for actual delivery. 
 This is useful when you want to selectively send emails to real recipients after inspecting them in the Mailpit web UI, or automatically relay specific messages.
+
+## infographic
+[https://infographic.antv.vision](https://github.com/antvis/Infographic/tree/main/skills)
