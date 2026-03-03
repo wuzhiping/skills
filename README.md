@@ -29,6 +29,9 @@ run OR async run a functional api throuth api gateway piper with credential toke
 ## ✅fess
 Enhanced web and package repository search using [FEG Enterprise Search Server] with SearXNG instance
 
+## web-fetch
+[https://skills.sh/0xbigboss/claude-code/web-fetch] Fetch web content
+
 ## planka
 A elegant, open-source Kanban-style project management tool designed for real-time team collaboration,
 follows the classic Kanban methodology
