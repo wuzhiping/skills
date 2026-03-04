@@ -23,7 +23,7 @@ Use bash (with optional background mode) for all coding agent work. Simple and e
 ## wiki-sop
 JA SOP with media-wiki
 
-## run
+## ✅run
 run OR async run a functional api throuth api gateway piper with credential token
 
 ## ✅fess
