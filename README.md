@@ -19,6 +19,7 @@ schedule
 
 ## coding-agent
 Use bash (with optional background mode) for all coding agent work. Simple and effective.
+etc. goose https://block.github.io/goose/docs/quickstart/
 
 ## wiki-sop
 JA SOP with media-wiki
