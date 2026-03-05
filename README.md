@@ -15,7 +15,7 @@ This Skill helps you create well-structured Agent Skills for Claude Code that fo
 memory os
 
 ## cron-jobs
-schedule
+submit pkflow jobs then trace process and result
 
 ## coding-agent
 Use bash (with optional background mode) for all coding agent work. Simple and effective.
