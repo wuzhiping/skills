@@ -1,6 +1,9 @@
 # skills evaluated
 [https://skills.sh/] The Open Agent Skills Ecosystem
 
+## DCP
+[https://github.com/Opencode-DCP/opencode-dynamic-context-pruning]
+
 ## ✅find-skills
 【https://skills.sh/vercel-labs/skills/find-skills】 This skill helps you discover and install skills from the open agent skills ecosystem.
 
