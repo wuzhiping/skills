@@ -35,6 +35,7 @@ This Skill helps you create well-structured Agent Skills for Claude Code that fo
 
 ## memroy
 [https://www.arscontexta.org/] memory infrastructure
+* skills-graph
 
 ## cron-jobs
 submit pkflow jobs then trace process and result
