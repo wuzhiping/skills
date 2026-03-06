@@ -1,10 +1,15 @@
 import requests
 import json
 import urllib3
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+token = os.getenv("API_TOKEN")
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-def call_coder_run(func: str, pkg: str, token: str, args: dict):
+def call_coder_run(func: str, pkg: str, args: dict):
     """调用 coder_run API - args 需要序列化为字符串"""
     url = "https://abc.feg.com.tw/BDD/API/AI/chatBot/ntfy/coder_run"
     
@@ -13,7 +18,7 @@ def call_coder_run(func: str, pkg: str, token: str, args: dict):
         "func": func,
         "pkg": pkg,
         "token": token,
-        "args": json.dumps(args)  # 转为字符串 "{\"a\":1,\"b\":2}"
+        "args": json.dumps(args) 
     }
     
     headers = {"Content-Type": "application/json"}
@@ -48,6 +53,5 @@ def call_coder_run(func: str, pkg: str, token: str, args: dict):
 result = call_coder_run(
     func="",
     pkg="",
-    token="",
     args={}
 )
