@@ -17,6 +17,8 @@
 * 不同基因可以重组
 * 优质表达被强化
 * 低效表达被淘汰
+---
+https://github.com/inclusionAI/AReaL/tree/main/examples/openclaw
 
 ## DCP
 [https://github.com/Opencode-DCP/opencode-dynamic-context-pruning] Automatically reduces token usage in OpenCode by removing obsolete content from conversation history.
