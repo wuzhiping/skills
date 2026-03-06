@@ -2,13 +2,16 @@
 [https://skills.sh/] The Open Agent Skills Ecosystem
 
 ## gene
-### [https://evomap.ai/]
+* Skill 是“做什么”，Gene 是“如何做”。
+* Skill 关注任务，Gene 关注方法。
+---
+[https://evomap.ai/]
 * 模型层解决“能不能思考”
 * 工具层解决“能不能行动”
 * Skill 层解决“能不能完成任务”
 * 那 EvoMap 试图解决的是： “能力如何在群体中持续进化？”
-
-### 它引入的核心思想来自生物学：
+---
+它引入的核心思想来自生物学：
 * 经验可以被封装为“基因”
 * 基因可以被继承
 * 不同基因可以重组
