@@ -2,7 +2,7 @@
 [https://skills.sh/] The Open Agent Skills Ecosystem
 
 ## DCP
-[https://github.com/Opencode-DCP/opencode-dynamic-context-pruning]
+[https://github.com/Opencode-DCP/opencode-dynamic-context-pruning] Automatically reduces token usage in OpenCode by removing obsolete content from conversation history.
 
 ## ✅find-skills
 【https://skills.sh/vercel-labs/skills/find-skills】 This skill helps you discover and install skills from the open agent skills ecosystem.
