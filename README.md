@@ -1,6 +1,9 @@
 # skills evaluated
 [https://skills.sh/] The Open Agent Skills Ecosystem
 
+## gene
+[https://evomap.ai/]
+
 ## DCP
 [https://github.com/Opencode-DCP/opencode-dynamic-context-pruning] Automatically reduces token usage in OpenCode by removing obsolete content from conversation history.
 
