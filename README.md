@@ -58,7 +58,7 @@ Enhanced web and package repository search using [FEG Enterprise Search Server] 
 
 [https://skills.sh/vaayne/agent-kit/web-fetch] Fetch web content, uv run scripts/web_fetch.py 🎉
 
-## planka
+## ✅planka
 A elegant, open-source Kanban-style project management tool designed for real-time team collaboration,
 follows the classic Kanban methodology
 
