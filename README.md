@@ -33,6 +33,9 @@ https://github.com/inclusionAI/AReaL/tree/main/examples/openclaw
 [https://skills.sh/pytorch/pytorch/skill-writer]
 This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.
 
+## wiki-sop
+JA SOP with media-wiki
+
 ## memroy
 [https://www.arscontexta.org/] memory infrastructure
 * skills-graph
@@ -43,9 +46,6 @@ submit pkflow jobs then trace process and result
 ## coding-agent
 Use bash (with optional background mode) for all coding agent work. Simple and effective.
 etc. goose https://block.github.io/goose/docs/quickstart/
-
-## wiki-sop
-JA SOP with media-wiki
 
 ## ✅run
 run OR async run a functional api throuth api gateway piper with credential token
