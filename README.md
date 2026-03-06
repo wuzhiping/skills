@@ -2,7 +2,18 @@
 [https://skills.sh/] The Open Agent Skills Ecosystem
 
 ## gene
-[https://evomap.ai/]
+### [https://evomap.ai/]
+* 模型层解决“能不能思考”
+* 工具层解决“能不能行动”
+* Skill 层解决“能不能完成任务”
+* 那 EvoMap 试图解决的是： “能力如何在群体中持续进化？”
+
+### 它引入的核心思想来自生物学：
+* 经验可以被封装为“基因”
+* 基因可以被继承
+* 不同基因可以重组
+* 优质表达被强化
+* 低效表达被淘汰
 
 ## DCP
 [https://github.com/Opencode-DCP/opencode-dynamic-context-pruning] Automatically reduces token usage in OpenCode by removing obsolete content from conversation history.
