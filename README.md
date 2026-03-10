@@ -74,6 +74,13 @@ This is useful when you want to selectively send emails to real recipients after
 
 ---
 
+# plugins
+## ralph-loop
+https://github.com/charfeng1/opencode-ralph-loop
+
+## oh-my-opencode
+https://ohmyopencode.org
+
 | 阶段                   | Emoji    | 说明      |
 | -------------------- | -------- | ------- |
 | **Todo / 待办**        | 📝 ☐     | 待处理、未开始 |
