@@ -1,4 +1,4 @@
-# skills evaluated
+# 📋skills evaluated
 [https://skills.sh/] The Open Agent Skills Ecosystem
 
 ## gene
@@ -74,7 +74,7 @@ This is useful when you want to selectively send emails to real recipients after
 
 ---
 
-# plugins
+# 📋plugins
 ## ralph-loop
 https://github.com/charfeng1/opencode-ralph-loop
 
