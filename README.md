@@ -1,7 +1,7 @@
 # 📋Skills evaluated
 [https://skills.sh/] The Open Agent Skills Ecosystem
 
-## gene
+## 🏁gene
 * Skill 是“做什么”，Gene 是“如何做”。
 * Skill 关注任务，Gene 关注方法。
 ---
@@ -23,7 +23,7 @@ https://github.com/inclusionAI/AReaL/tree/main/examples/openclaw
 ## ✅self-improvement
 https://skills.sh/pskoett/self-improving-agent/self-improvement
 
-## DCP
+## ✅DCP
 [https://github.com/Opencode-DCP/opencode-dynamic-context-pruning] Automatically reduces token usage in OpenCode by removing obsolete content from conversation history.
 
 ## ✅find-skills
