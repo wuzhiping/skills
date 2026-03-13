@@ -20,6 +20,9 @@
 ---
 https://github.com/inclusionAI/AReaL/tree/main/examples/openclaw
 
+## self-improvement
+https://skills.sh/pskoett/self-improving-agent/self-improvement
+
 ## DCP
 [https://github.com/Opencode-DCP/opencode-dynamic-context-pruning] Automatically reduces token usage in OpenCode by removing obsolete content from conversation history.
 
