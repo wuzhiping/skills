@@ -20,7 +20,7 @@
 ---
 https://github.com/inclusionAI/AReaL/tree/main/examples/openclaw
 
-## self-improvement
+## ✅self-improvement
 https://skills.sh/pskoett/self-improving-agent/self-improvement
 
 ## DCP
@@ -32,6 +32,9 @@ https://skills.sh/pskoett/self-improving-agent/self-improvement
 ## ✅superpowers
 [https://github.com/obra/superpowers] a complete software development workflow for your coding agents, built on top of a set of composable "skills" and some initial instructions that make sure your agent uses them.
 
+## ✅AutoSkill
+[[Pigs](https://github.com/wuzhiping/pig)](https://github.com/ECNU-ICALK/AutoSkill)
+
 ## ✅skill-writer
 [https://skills.sh/pytorch/pytorch/skill-writer]
 This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.
@@ -39,7 +42,7 @@ This Skill helps you create well-structured Agent Skills for Claude Code that fo
 ## wiki-sop
 JA SOP with media-wiki
 
-## [MemoryOS](https://github.com/BAI-LAB/MemoryOS)
+## ✅[MemoryOS](https://github.com/BAI-LAB/MemoryOS)
 [https://www.arscontexta.org/] memory infrastructure
 * skills-graph
 
