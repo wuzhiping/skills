@@ -23,7 +23,7 @@ https://github.com/inclusionAI/AReaL/tree/main/examples/openclaw
 ## ✅self-improvement
 https://skills.sh/pskoett/self-improving-agent/self-improvement
 
-## ✅DCP
+## ☐DCP
 [https://github.com/Opencode-DCP/opencode-dynamic-context-pruning] Automatically reduces token usage in OpenCode by removing obsolete content from conversation history.
 
 ## ✅find-skills
@@ -32,24 +32,24 @@ https://skills.sh/pskoett/self-improving-agent/self-improvement
 ## ✅superpowers
 [https://github.com/obra/superpowers] a complete software development workflow for your coding agents, built on top of a set of composable "skills" and some initial instructions that make sure your agent uses them.
 
-## ✅AutoSkill
+## ☐AutoSkill
 [[Pigs](https://github.com/wuzhiping/pig)](https://github.com/ECNU-ICALK/AutoSkill)
 
 ## ✅skill-writer
 [https://skills.sh/pytorch/pytorch/skill-writer]
 This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.
 
-## wiki-sop
+## ☐wiki-sop
 JA SOP with media-wiki
 
-## ✅[MemoryOS](https://github.com/BAI-LAB/MemoryOS)
+## ☐[MemoryOS](https://github.com/BAI-LAB/MemoryOS)
 [https://www.arscontexta.org/] memory infrastructure
 * skills-graph
 
-## cron-jobs
+## ☐cron-jobs
 submit pkflow jobs then trace process and result
 
-## coding-agent
+## ☐coding-agent
 Use bash (with optional background mode) for all coding agent work. Simple and effective.
 etc. goose https://block.github.io/goose/docs/quickstart/
 
@@ -72,7 +72,7 @@ follows the classic Kanban methodology
 Mailpit's SMTP relay (also called "message release") allows you to forward captured emails to a real SMTP server for actual delivery. 
 This is useful when you want to selectively send emails to real recipients after inspecting them in the Mailpit web UI, or automatically relay specific messages.
 
-## dvc
+## ☐dvc
 [https://dvc.org/]
 
 ## ✅infographic
