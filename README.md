@@ -39,7 +39,7 @@ This Skill helps you create well-structured Agent Skills for Claude Code that fo
 ## wiki-sop
 JA SOP with media-wiki
 
-## memroy
+## [MemoryOS](https://github.com/BAI-LAB/MemoryOS)
 [https://www.arscontexta.org/] memory infrastructure
 * skills-graph
 
