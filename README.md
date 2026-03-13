@@ -1,5 +1,5 @@
 # 📋Skills evaluated
-[https://skills.sh/] The Open Agent Skills Ecosystem
+[The Open Agent Skills Ecosystem](https://skills.sh/)
 
 ## 🏁gene
 * Skill 是“做什么”，Gene 是“如何做”。
