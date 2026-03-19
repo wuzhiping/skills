@@ -23,6 +23,9 @@
 ---
 https://github.com/inclusionAI/AReaL/tree/main/examples/openclaw
 
+## ☐obsidian-cli
+https://github.com/kepano/obsidian-skills
+
 ## ✅self-improvement
 https://skills.sh/pskoett/self-improving-agent/self-improvement
 
