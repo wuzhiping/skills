@@ -1,3 +1,6 @@
+# AI 技能与 RAG
+[Skill Seekers](https://skillseekersweb.com/zh/)
+
 # 📋Skills evaluated
 [The Open Agent Skills Ecosystem](https://skills.sh/)
 
