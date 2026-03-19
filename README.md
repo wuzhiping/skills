@@ -90,6 +90,8 @@ https://github.com/charfeng1/opencode-ralph-loop
 ## oh-my-opencode
 https://ohmyopencode.org
 
+https://www.opencode.asia/zh-cn/ecosystem/oh-my-opencode/
+
 ---
 
 | 阶段                   | Emoji    | 说明      |
