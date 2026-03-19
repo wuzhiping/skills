@@ -1,3 +1,6 @@
+# 5 Agent Skill design patterns every ADK developer should know
+[5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855)
+
 # AI 技能与 RAG
 [Skill Seekers](https://skillseekersweb.com/zh/)
 
