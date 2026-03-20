@@ -2,7 +2,7 @@
 [5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855)
 
 # AI 技能与 RAG
-[sirchmunk](https://modelscope.github.io/sirchmunk-web/zh/)
+[sirchmunk](https://modelscope.github.io/sirchmunk-web/zh/) Raw Data to Self-Evolving Intelligence
 ```
 docker run -d -it \
           --name sirchmunk \
