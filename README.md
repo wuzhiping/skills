@@ -2,6 +2,27 @@
 [5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855)
 
 # AI 技能与 RAG
+[sirchmunk](https://modelscope.github.io/sirchmunk-web/zh/)
+```
+docker run -d -it \
+          --name sirchmunk \
+          --cpus="4" \
+          --memory="2g" \
+          -p 8584:8584 \
+          -e LLM_API_KEY="sk-k5UlvstW5kP4G0jd7rK1cA" \
+          -e LLM_BASE_URL="http://litellm.feg.cn/v1" \
+          -e LLM_MODEL_NAME="ministral-3" \
+          -e LLM_TIMEOUT=60.0 \
+          -e UI_THEME=light \
+          -e UI_LANGUAGE=zh \
+          -e SIRCHMUNK_VERBOSE=true \
+          -e SIRCHMUNK_ENABLE_CLUSTER_REUSE=true \
+          -e SIRCHMUNK_SEARCH_PATHS=/mnt/docs \
+          -v $PWD/data:/data/sirchmunk \
+          -v /home/shawoo/cogs/abc/static/md:/mnt/docs:ro \
+          modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/sirchmunk:ubuntu22.04-py312-0.0.6
+
+```
 [Skill Seekers](https://skillseekersweb.com/zh/)
 
 # 📋Skills evaluated
