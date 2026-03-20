@@ -9,7 +9,7 @@ docker run -d -it \
           --cpus="4" \
           --memory="2g" \
           -p 8584:8584 \
-          -e LLM_API_KEY="sk-k5UlvstW5kP4G0jd7rK1cA" \
+          -e LLM_API_KEY="sk-abc" \
           -e LLM_BASE_URL="http://litellm.feg.cn/v1" \
           -e LLM_MODEL_NAME="ministral-3" \
           -e LLM_TIMEOUT=60.0 \
