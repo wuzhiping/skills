@@ -20,6 +20,9 @@ arguments:
     type: string
     description: "搜索模式，默认为FAST,还支持DEEP,FILENAME_ONLY,根据用户情景选择合适的搜索模式"
     default: "FAST"
+  dir:
+    type: string
+    description: "使用`basename $(pwd)`获取当前目录的名称（不含路径）" 
 
 ## 搜索模式说明
 | 模式                 | 说明       | 适用场景                 | 速度    |
@@ -36,7 +39,7 @@ curl -X POST "http://${api_url}:${api_port}/api/v1/search" \
  -H 'content-type: application/json' \
  -d '{
     "query": "${arguments.query}",
-    "paths": ["/mnt/test"],
+    "paths": ["/mnt/${arguments.dir}"],
     "mode": "${arguments.mode}",           
     "enable_dir_scan": True, 
     "max_depth": 5,           
