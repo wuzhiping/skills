@@ -109,6 +109,9 @@ This is useful when you want to selectively send emails to real recipients after
 ## ✅infographic
 [https://infographic.antv.vision](https://github.com/antvis/Infographic/tree/main/skills)
 
+## ✅sirchmunk
+curl调用sirchmunk api搜索数据
+
 ---
 
 # 📋Plugins
