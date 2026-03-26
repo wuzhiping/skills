@@ -1,6 +1,10 @@
 # 5 Agent Skill design patterns every ADK developer should know
 [5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855)
 
+# links
+* [autoresearch](https://github.com/karpathy/autoresearch)
+
+  
 # AI 技能与 RAG
 [sirchmunk](https://modelscope.github.io/sirchmunk-web/zh/) Raw Data to Self-Evolving Intelligence
 ```
