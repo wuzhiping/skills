@@ -3,7 +3,7 @@
 
 # links
 * [autoresearch](https://github.com/karpathy/autoresearch)
-
+* [openviking](https://skills.sh/volcengine/openviking/openviking)
   
 # AI 技能与 RAG
 [sirchmunk](https://modelscope.github.io/sirchmunk-web/zh/) Raw Data to Self-Evolving Intelligence
