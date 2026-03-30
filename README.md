@@ -7,6 +7,7 @@
 * [qmd](https://github.com/tobi/qmd)
 * [openviking](https://skills.sh/volcengine/openviking/openviking)
 * [opencli](https://opencli.info/docs/zh/)
+* [Skill Seekers](https://skillseekersweb.com/zh/)
   
 # AI 技能与 RAG
 [sirchmunk](https://modelscope.github.io/sirchmunk-web/zh/) Raw Data to Self-Evolving Intelligence
@@ -30,7 +31,6 @@ docker run -d -it \
           modelscope-registry.cn-beijing.cr.aliyuncs.com/modelscope-repo/sirchmunk:ubuntu22.04-py312-0.0.6
 
 ```
-[Skill Seekers](https://skillseekersweb.com/zh/)
 
 # 📋Skills evaluated
 [The Open Agent Skills Ecosystem](https://skills.sh/)
