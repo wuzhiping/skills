@@ -4,6 +4,7 @@
 # links
 * [autoresearch](https://github.com/karpathy/autoresearch)
 * [autoresearch-skill](https://skills.sh/olelehmann100kmrr/autoresearch-skill/autoresearch)
+* [qmd](https://github.com/tobi/qmd)
 * [openviking](https://skills.sh/volcengine/openviking/openviking)
 * [opencli](https://opencli.info/docs/zh/)
   
