@@ -2,6 +2,7 @@
 [5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855)
 
 # links
+* [openclaude](https://github.com/Gitlawb/openclaude)
 * [autoresearch](https://github.com/karpathy/autoresearch)
 * [autoresearch-skill](https://skills.sh/olelehmann100kmrr/autoresearch-skill/autoresearch)
 * [qmd](https://github.com/tobi/qmd)
