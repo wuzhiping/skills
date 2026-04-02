@@ -3,6 +3,16 @@
 
 # links
 * [openclaude](https://github.com/Gitlawb/openclaude)
+  ```
+  npm install -g @gitlawb/openclaude
+
+  export CLAUDE_CODE_USE_OPENAI=1
+  export OPENAI_API_KEY=sk-ollama
+  export OPENAI_BASE_URL=http://127.0.0.1:11434/v1
+  export OPENAI_MODEL=qwen3.5-27b
+  
+  openclaude
+  ```
 * [autoresearch](https://github.com/karpathy/autoresearch)
 * [autoresearch-skill](https://skills.sh/olelehmann100kmrr/autoresearch-skill/autoresearch)
 * [qmd](https://github.com/tobi/qmd)
