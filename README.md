@@ -2,6 +2,8 @@
 [5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855)
 
 # links
+* [mempalace](https://github.com/milla-jovovich/mempalace)
+* [graphify](https://github.com/safishamsi/graphify)
 * [openclaude](https://github.com/Gitlawb/openclaude)
   ```
   npm install -g @gitlawb/openclaude
@@ -13,6 +15,7 @@
   
   openclaude
   ```
+* [hermes-agent](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
 * [autoresearch](https://github.com/karpathy/autoresearch)
 * [autoresearch-skill](https://skills.sh/olelehmann100kmrr/autoresearch-skill/autoresearch)
 * [qmd](https://github.com/tobi/qmd)
