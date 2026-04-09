@@ -3,7 +3,7 @@
 
 # links
 * [mempalace](https://github.com/milla-jovovich/mempalace)
-* [graphify](https://github.com/safishamsi/graphify)
+* [graphify](https://github.com/safishamsi/graphify/blob/v3/README.zh-CN.md)
 * [openclaude](https://github.com/Gitlawb/openclaude)
   ```
   npm install -g @gitlawb/openclaude
