@@ -2,7 +2,7 @@
 [5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855)
 
 # links
-* [Frameworks for reinventing software， again and again](https://www.bestblogs.dev/video/862b9f1}
+* [Frameworks for reinventing software， again and again](https://www.bestblogs.dev/video/862b9f1)
 * [mempalace](https://github.com/milla-jovovich/mempalace)
 * [graphify](https://github.com/safishamsi/graphify/blob/v3/README.zh-CN.md)
 * [openclaude](https://github.com/Gitlawb/openclaude)
