@@ -1,58 +1,40 @@
-
-import requests
-import base64
-import os
+#!/usr/bin/env python3
+import requests, base64, os, json, sys
 
 API_URL = "http://10.17.1.26:8025/api/v1/send"
 
-def encode_file(path):
-    with open(path, "rb") as f:
-        return base64.b64encode(f.read()).decode("utf-8")
-
-def execute(arguments):
-
+def main():
+    # 从标准输入读取 JSON
+    args = json.load(sys.stdin)
+    
+    # 构建 payload
     payload = {
-        "From": {
-            "Email": arguments["from_email"],
-            "Name": arguments.get("from_name", "")
-        },
-        "To": [{"Email": email} for email in arguments["to"]],
-        "Subject": arguments["subject"]
+        "From": {"Email": args["from_email"], "Name": args.get("from_name", "")},
+        "To": [{"Email": e} for e in args["to"]],
+        "Subject": args["subject"]
     }
-
-    if arguments.get("text"):
-        payload["Text"] = arguments["text"]
-
-    if arguments.get("html"):
-        payload["HTML"] = arguments["html"]
-
-    if arguments.get("cc"):
-        payload["Cc"] = [{"Email": email} for email in arguments["cc"]]
-
-    if arguments.get("bcc"):
-        payload["Bcc"] = arguments["bcc"]
-
-    if arguments.get("attachments"):
+    
+    if args.get("text"): payload["Text"] = args["text"]
+    if args.get("html"): payload["HTML"] = args["html"]
+    if args.get("cc"): payload["Cc"] = [{"Email": e} for e in args["cc"]]
+    if args.get("bcc"): payload["Bcc"] = [{"Email": e} for e in args["bcc"]]
+    
+    # 附件
+    if args.get("attachments"):
         payload["Attachments"] = []
-        for path in arguments["attachments"]:
-            if os.path.exists(path):
+        for path in args["attachments"]:
+            with open(path, "rb") as f:
                 payload["Attachments"].append({
-                    "Content": encode_file(path),
-                    "ContentType": "application/octet-stream",
+                    "Content": base64.b64encode(f.read()).decode(),
                     "Filename": os.path.basename(path)
                 })
+    
+    # 发送
+    try:
+        r = requests.post(API_URL, json=payload, headers={"Content-Type": "application/json"})
+        print(json.dumps({"success": r.status_code == 200, "status_code": r.status_code, "response": r.text}))
+    except Exception as e:
+        print(json.dumps({"success": False, "error": str(e)}))
 
-    response = requests.post(
-        API_URL,
-        json=payload,
-        headers={
-            "accept": "application/json",
-            "content-type": "application/json"
-        }
-    )
-
-    return {
-        "success": response.status_code == 200,
-        "status_code": response.status_code,
-        "response": response.text
-    }
+if __name__ == "__main__":
+    main()
