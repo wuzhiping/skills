@@ -23,6 +23,7 @@
 * [openviking](https://skills.sh/volcengine/openviking/openviking) [api](https://github.com/volcengine/OpenViking/tree/main/docs/zh/api)
 * [opencli](https://opencli.info/docs/zh/)
 * [Skill Seekers](https://skillseekersweb.com/zh/)
+* [FileCodeBox](https://fcb-docs.aiuo.net/api/)
   
 # AI 技能与 RAG
 [sirchmunk](https://modelscope.github.io/sirchmunk-web/zh/) Raw Data to Self-Evolving Intelligence
