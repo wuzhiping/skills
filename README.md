@@ -6,6 +6,7 @@
 * [mempalace](https://github.com/milla-jovovich/mempalace)
 * [graphify](https://github.com/safishamsi/graphify/blob/v3/README.zh-CN.md)
 * [openclaude](https://github.com/Gitlawb/openclaude)
+* [browser-harness](https://github.com/browser-use/browser-harness)
   ```
   npm install -g @gitlawb/openclaude
 
