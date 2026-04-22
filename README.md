@@ -74,6 +74,9 @@ https://github.com/inclusionAI/AReaL/tree/main/examples/openclaw
 * https://github.com/kepano/obsidian-skills
 * https://github.com/vrtmrz/obsidian-livesync
 
+## dspy
+https://github.com/intertwine/dspy-agent-skills
+
 ## ☐browser-use-cli
 https://docs.browser-use.com/open-source/browser-use-cli#browser-use-cli
 
