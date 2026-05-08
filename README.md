@@ -18,6 +18,7 @@
   openclaude
   ```
 * [hermes-agent](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
+* [Hermes Kanban](https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/kanban-tutorial)
 * [autoresearch](https://github.com/karpathy/autoresearch)
 * [autoresearch-skill](https://skills.sh/olelehmann100kmrr/autoresearch-skill/autoresearch)
 * [qmd](https://github.com/tobi/qmd)
