@@ -17,6 +17,7 @@
   
   openclaude
   ```
+* [pm-skills](https://github.com/phuryn/pm-skills)
 * [hermes-agent](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
 * [Hermes Kanban](https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/kanban-tutorial)
 * [puppygraph mcp](https://github.com/wuzhiping/puppygraph)
