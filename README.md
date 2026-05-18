@@ -20,6 +20,7 @@
 * [pm-skills](https://github.com/phuryn/pm-skills)
 * [swarmvault](https://github.com/swarmclawai/swarmvault)
 * [ForRealEngineers](https://github.com/mattpocock/skills)
+* [openhuman](https://github.com/tinyhumansai/openhuman)
 * [hermes-agent](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
 * [Hermes Kanban](https://hermes-agent.nousresearch.com/docs/zh-Hans/user-guide/features/kanban-tutorial)
 * [puppygraph mcp](https://github.com/wuzhiping/puppygraph)
