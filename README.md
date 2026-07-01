@@ -3,6 +3,7 @@
 
 # links
 * [马尾辫](https://github.com/DietrichGebert/ponytail)
+* [OKF](https://github.com/fabricioctelles/skills/tree/main/skills/okf-open-knowledge-format)
 * [handoff](https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff)
 * [Frameworks for reinventing software， again and again](https://www.bestblogs.dev/video/862b9f1)
 * [mempalace](https://github.com/milla-jovovich/mempalace)
