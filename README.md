@@ -2,6 +2,7 @@
 [5 Agent Skill design patterns](https://x.com/GoogleCloudTech/article/2033953579824758855)
 
 # links
+* [Design.md](https://github.com/google-labs-code/design.md)
 * [马尾辫](https://github.com/DietrichGebert/ponytail)
 * [OKF](https://github.com/fabricioctelles/skills/tree/main/skills/okf-open-knowledge-format)
 * [handoff](https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff)
