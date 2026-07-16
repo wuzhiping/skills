@@ -1,5 +1,5 @@
 ---
-name: api-request
+name: fdep-api-request
 description: 根据 API ID 自动查询接口文档并执行调用。流程：查文档 → 按文档组装参数 → 执行调用。
 ---
 
