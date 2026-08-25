@@ -1,6 +1,6 @@
 ---
 name: fdep-api-corn
-description: 根据 API ID 自动查询接口文档并执行调用。流程：查文档 → 按文档组装参数 → 执行调用。
+description: 根据 API ID 自动查询接口文档并在cron中执行调用。流程：查文档 → 按文档组装参数 → 执行调用。
 ---
 
 # 工作流
