@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import requests, base64, os, json, sys
 
-API_URL = "http://10.17.1.26:8025/api/v1/send"
+API_URL = "https://relay.feg.cn/api/v1/send"
 
 def main():
     # 从标准输入读取 JSON
