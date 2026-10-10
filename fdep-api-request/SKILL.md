@@ -1,31 +1,31 @@
 ---
 name: fdep-api-request
-description: 根据 API ID 自动查询接口文档并执行调用。流程：查文档 → 按文档组装参数 → 执行调用。
+description: 根據 API ID 自動查詢介面文件並執行呼叫。流程：查文件 → 按文件組裝參數 → 執行呼叫。
 ---
 
 # 工作流
 
 ```mermaid
 graph LR
-    A[传入 API ID] --> B{需要查文档?}
-    B -->|是| C[do=false 查询文档]
-    B -->|已有文档| D[do=true 执行调用]
-    C --> E[解析 data.docs 获取入参定义]
+    A[傳入 API ID] --> B{需要查文件?}
+    B -->|是| C[do=false 查詢文件]
+    B -->|已有文件| D[do=true 執行呼叫]
+    C --> E[解析 data.docs 取得入參定義]
     E --> D
-    D --> F[返回执行结果]
+    D --> F[返回執行結果]
 ```
 
 ## 第一步
 
-当**首次调用**或**不确定入参结构**时，先查询文档。
+當**首次呼叫**或**不確定入參結構**時，先查詢文件。
 
-### 请求
+### 請求
 
-| 项目   | 值                                |
+| 項目   | 值                                |
 | ---- | -------------------------------- |
-| 接口地址 | `https://abc.feg.com.tw/oauth2/fdep`   |
-| 请求方式 | `POST`                           |
-| 请求头  | `Content-Type: application/json` |
+| 介面地址 | `https://abc.feg.com.tw/oauth2/fdep`   |
+| 請求方式 | `POST`                           |
+| 請求頭  | `Content-Type: application/json` |
 
 ```json
 {
@@ -35,39 +35,39 @@ graph LR
 }
 ```
 
-> 注意：`do: false` 表示仅查询文档，不执行业务逻辑。`inbound` 传空对象即可，文档查询不依赖具体参数。
+> 注意：`do: false` 表示僅查詢文件，不執行業務邏輯。`inbound` 傳空物件即可，文件查詢不依賴具體參數。
 
-### 响应
+### 回應
 
 ```json
 {
   "data": {
     "docs": {
-      "desc": "接口功能描述",
-      "name": "参数1",
+      "desc": "介面功能描述",
+      "name": "參數1",
     },
-    "flow": "流程图字符串（调试用，可忽略）"
+    "flow": "流程圖字串（除錯用，可忽略）"
   },
   "trace_id": "xxx"
 }
 ```
 
-#### docs 字段解读规则
+#### docs 欄位解讀規則
 
-- `docs.desc` → 接口功能说明（**不**作为请求参数）
-- `docs` 中**除 `desc` 外的其他字段** → 接口所需的入参字段名及说明
-- 根据字段名和说明，由用户或上下文提供对应值
+- `docs.desc` → 介面功能說明（**不**作為請求參數）
+- `docs` 中**除 `desc` 外的其他欄位** → 介面所需的入參欄位名及說明
+- 根據欄位名和說明，由使用者或上下文提供對應值
 
-## 第二步：执行 API 调用
+## 第二步：執行 API 呼叫
 
-拿到文档后，按 `docs` 中的字段（排除 `desc`）组装 `inbound`。
+拿到文件後，按 `docs` 中的欄位（排除 `desc`）組裝 `inbound`。
 
-### 请求
-| 项目   | 值                                |
+### 請求
+| 項目   | 值                                |
 | ---- | -------------------------------- |
-| 接口地址 | `https://abc.feg.com.tw/oauth2/fdep`   |
-| 请求方式 | `POST`                           |
-| 请求头  | `Content-Type: application/json` |
+| 介面地址 | `https://abc.feg.com.tw/oauth2/fdep`   |
+| 請求方式 | `POST`                           |
+| 請求頭  | `Content-Type: application/json` |
 
 ```json
 {
@@ -79,15 +79,15 @@ graph LR
 }
 ```
 
-> 关键：`inbound` 的键名必须与 `docs` 中除 `desc` 外的字段名完全一致。
+> 關鍵：`inbound` 的鍵名必須與 `docs` 中除 `desc` 外的欄位名完全一致。
 
-## 完整示例
+## 完整範例
 
-### 场景：调用 test.demo 接口
+### 場景：呼叫 test.demo 介面
 
-#### 1. 查询文档
+#### 1. 查詢文件
 
-##### 请求：
+##### 請求：
 ```json
 {
   "api": "test.demo",
@@ -96,32 +96,32 @@ graph LR
 }
 ```
 
-##### 响应：
+##### 回應：
 ```json
 {
   "data": {
     "docs": {
-      "desc": "最简单的示例",
+      "desc": "最簡單的範例",
       "name": "aaa"
     },
-    "flow": "flowchart TD\n  subgraph Flow[\"Flow\"]\n    N2@{ label: '获取数据' }\n  end"
+    "flow": "flowchart TD\n  subgraph Flow[\"Flow\"]\n    N2@{ label: '取得資料' }\n  end"
   },
   "trace_id": "f554b70e-cbc7-40f9-b6e5-463e1be02cd9",
   "root_path": ""
 }
 ```
 
-#### 2. 分析文档
+#### 2. 分析文件
 
-从`docs`提取入参字段（排除`desc`）：
-| 字段名        | 需提供的值              |
+從`docs`擷取入參欄位（排除`desc`）：
+| 欄位名        | 需提供的值              |
 | ---------- | ------------------ |
 | `name` | `aaa`         |
 
 
-#### 3. 执行调用
+#### 3. 執行呼叫
 
-##### 请求：
+##### 請求：
 ```json
 {
   "api":"test.demo",
