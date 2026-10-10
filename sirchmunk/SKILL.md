@@ -1,40 +1,35 @@
 ---
 name: sirchmunk
-description: 遇到关键词"搜索"、"全文搜索"、"检索"、"查找"时，从用户输入中提取搜索关键词以及搜索模式，构造JSON请求体，使用curl命令发送POST请求并返回相关信息
+description: 遇到關鍵字「搜尋」、「全文搜尋」、「檢索」、「查找」時，從使用者輸入中擷取搜尋關鍵字以及搜尋模式，構造 JSON 請求體，使用 curl 命令發送 POST 請求並返回相關資訊
 ---
 
-# 文件夹结构
-若需要获取文件结构，使用`eza --tree --level=3 --sort=newest ./`命令获取当前目录下的文件结构，并返回结果。
+# 資料夾結構
+若需要取得檔案結構，使用`eza --tree --level=3 --sort=newest ./`命令取得當前目錄下的檔案結構，並返回結果。
 
-
-# api配置
-- api_url = "10.17.1.26"
-- api_port = "8584"
-
-# 参数定义
+# 參數定義
 arguments:
   query:
     type: string
-    description: "搜索查询内容"
+    description: "搜尋查詢內容"
   mode:
     type: string
-    description: "搜索模式，默认为FAST,还支持DEEP,FILENAME_ONLY,根据用户情景选择合适的搜索模式"
+    description: "搜尋模式，預設為 FAST，還支援 DEEP、FILENAME_ONLY，根據使用者情景選擇合適的搜尋模式"
     default: "FAST"
   dir:
     type: string
-    description: "使用`basename $(pwd)`获取当前目录的名称（不含路径）" 
+    description: "使用`basename $(pwd)`取得當前目錄的名稱（不含路徑）" 
 
-## 搜索模式说明
-| 模式                 | 说明       | 适用场景                 | 速度    |
+## 搜尋模式說明
+| 模式                 | 說明       | 適用場景                 | 速度    |
 | ------------------ | -------- | -------------------- | ----- |
-| **FAST**           | 快速模式（默认） | 只搜索文件名和基本元数据，不深入文件内容 | ⚡ 最快  |
-| **DEEP**           | 深度模式     | 递归扫描目录，读取文件内容进行全文搜索  | 🐢 较慢 |
-| **FILENAME\_ONLY** | 仅文件名     | 只匹配文件名，不做任何内容检索      | ⚡ 最快  |
+| **FAST**           | 快速模式（預設） | 只搜尋檔名和基本中繼資料，不深入檔案內容 | ⚡ 最快  |
+| **DEEP**           | 深度模式     | 遞迴掃描目錄，讀取檔案內容進行全文搜尋  | 🐢 較慢 |
+| **FILENAME\_ONLY** | 僅檔名     | 只匹配檔名，不做任何內容檢索      | ⚡ 最快  |
 
 
-# 使用变量执行 curl命令
+# 使用變數執行 curl 命令
 ```
-curl -X POST "http://${api_url}:${api_port}/api/v1/search" \
+curl -X POST " https://sirch.feg.cn/api/v1/search" \
  -H 'accept: application/json'\
  -H 'content-type: application/json' \
  -d '{
